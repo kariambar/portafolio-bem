@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+.a-menu {
+  display: inline-block;
+  text-align: center !important;
+  padding: 5px;
+  background-color: #f04949;
+  margin-top: 0;
+  width: 99%; }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  color: white;
+  position: center; }
+
+.a-menu__item__link {
+  color: #fff;
+  text-decoration: none;
+  list-decoration: none; }
+  .a-menu__item__link:hover {
+    color: #ffc99d;
+    text-decoration: none;
+    list-decoration: none; }
+
+header {
+  background-color: #203748;
+  height: 100vh;
+  width: 100%; }
+
+.article {
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box; }
+  .article__img {
+    margin-left: 20rem;
+    color: white; }
+
+.article__datos {
+  padding-top: -30rem; }
+  .article__datos__title {
+    color: #39d084; }
+  .article__datos__desc {
+    color: #fff; }
+
+.article__datos__desc--boton {
+  width: 15rem;
+  background-color: #39d084;
+  border-radius: 30px;
+  height: 3rem;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff; }
+  .article__datos__desc--boton:hover {
+    color: #fff; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
