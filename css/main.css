@@ -11,18 +11,30 @@
   display: inline-block;
   font-size: 14px;
   font-weight: 700;
-  padding: 10px;
+  padding: 20px;
   color: white;
-  position: center; }
+  position: center;
+  padding-left: 4rem; }
 
 .a-menu__item__link {
   color: #fff;
   text-decoration: none;
-  list-decoration: none; }
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 0; }
   .a-menu__item__link:hover {
     color: #ffc99d;
     text-decoration: none;
     list-decoration: none; }
+  .a-menu__item__link__profile {
+    background-color: #203748; }
+
+.fotoperfil {
+  border-radius: 50%;
+  margin-right: 10rem; }
+
+.fa {
+  margin-right: 5px; }
 
 header {
   background-color: #203748;
@@ -31,14 +43,16 @@ header {
 
 .article {
   display: inline-block;
-  padding: 20px;
-  box-sizing: border-box; }
+  padding: 20px; }
   .article__img {
     margin-left: 20rem;
-    color: white; }
+    color: white;
+    padding-top: 10px; }
 
 .article__datos {
-  padding-top: -30rem; }
+  display: inline-block;
+  padding-left: 45%;
+  margin-top: -20rem; }
   .article__datos__title {
     color: #39d084; }
   .article__datos__desc {
@@ -54,6 +68,19 @@ header {
   color: #fff; }
   .article__datos__desc--boton:hover {
     color: #fff; }
+
+.social-ul {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 5rem; }
+
+.social-ul__icons {
+  display: inline-block;
+  margin-left: 1rem; }
+
+.article__datos__desc--perfil {
+  width: 70%;
+  color: #fff; }
 
 body {
   padding: 0;

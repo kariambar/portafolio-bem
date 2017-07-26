@@ -14,20 +14,35 @@
 	display:inline-block;
 	font-size:14px;
 	font-weight:700;
-	padding:10px;
+	padding:20px;
 	color:white;
 	position:center;
+	padding-left:4rem;
 }
 
 .a-menu__item__link{
 	color:$white;
 	text-decoration:none;
-		list-decoration:none;
+	padding:15px;
+	border-radius:15px;
+	margin-top: 0;
 	&:hover{
 		color:$hover;
 		text-decoration:none;
 		list-decoration:none;
 	}
+&__profile{
+	background-color: $fondo_body;
+	}
+
+}
+.fotoperfil{
+	border-radius:50%;
+	margin-right:10rem;
+
+}
+.fa{
+	margin-right:5px;
 }
 //section principal
 header{
@@ -39,15 +54,17 @@ header{
 .article{
 	display: inline-block;
 	padding:20px;
-	box-sizing: border-box;
 &__img{
 margin-left: 20rem;
 color:white;
+padding-top:10px;
 	}	
 }
 
 .article__datos{
-	padding-top: -30rem;
+	display:inline-block;
+	padding-left:45%;
+	margin-top:-20rem;
 &__title{
 	color: $titulos;
 	}
@@ -68,3 +85,17 @@ color:white;
 		color: $white;
 	}
 }
+
+.social-ul{
+	 width: 30%;
+ margin: 0 auto;
+ padding-top:5rem;
+}
+.social-ul__icons{
+	display:inline-block;
+	margin-left:1rem;
+}
+.article__datos__desc--perfil{
+	width:70%;
+	color:$white;
+} 
